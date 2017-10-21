@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <Extern href="stdidcmd.h"/>
+
+  <Extern href="vsshlids.h"/>
+
+  <Commands package="guidFileExplorerPackage">
+    <Groups>
+      <Group guid="guidFileExplorerPackageCmdSet" id="MyMenuGroup" priority="0x0300">
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_ITEMNODE"/>
+      </Group>
+    </Groups>
+
+    <Buttons>
+      <Button guid="guidFileExplorerPackageCmdSet" id="FileExplorerId" priority="0x0100" type="Button">
+        <Parent guid="guidFileExplorerPackageCmdSet" id="MyMenuGroup" />
+        <Icon guid="guidImages" id="bmpPic1" />
+        <Strings>
+          <ButtonText>Open in File Explorer</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
+
+    <Bitmaps>
+      <Bitmap guid="guidImages" href="Resources\FileExplorer.png" usedList="bmpPic1"/>
+    </Bitmaps>
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="guidFileExplorerPackage" value="{255228a6-0f7a-4614-baae-a236cbb14390}" />
+
+    <GuidSymbol name="guidFileExplorerPackageCmdSet" value="{2e0c0069-03a0-4e85-a36c-d4129765e929}">
+      <IDSymbol name="MyMenuGroup" value="0x1020" />
+      <IDSymbol name="FileExplorerId" value="0x0100" />
+    </GuidSymbol>
+
+    <GuidSymbol name="guidImages" value="{19e2c39f-d6ec-41a0-9f61-3f33eb364432}" >
+      <IDSymbol name="bmpPic1" value="1" />
+      
+    </GuidSymbol>
+  </Symbols>
+</CommandTable>
