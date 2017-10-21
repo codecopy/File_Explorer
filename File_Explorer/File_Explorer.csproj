@@ -57,6 +57,9 @@
     <Compile Include="Utility\LocateFolder.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\LICENSE">
+      <Link>Resources\LICENSE</Link>
+    </None>
     <None Include="Key.snk" />
     <None Include="packages.config" />
     <None Include="source.extension.vsixmanifest">
