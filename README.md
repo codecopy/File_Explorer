@@ -20,11 +20,16 @@ See the [change log](CHANGELOG.md) for changes and road map.
 - Open any files from Solution Explorer in File Explorer in a single click
 
 ### Open Files in Files Explorer
+
 Select any no. of files and right click and select "Open in File Explorer"
+
 ![Context Menu](pics/select.png)
 
+
 Then click it to open the file in File Explorer
+
 ![Explorer](pics/explorer.png)
+
 
 ## Contribute
 Check out the [contribution guidelines](CONTRIBUTING.md)
