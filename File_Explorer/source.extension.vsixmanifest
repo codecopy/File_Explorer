@@ -4,9 +4,12 @@
     <Identity Id="0f53b279-3ac6-4152-9950-b2dd9dd3f80a" Version="1.0" Language="en-US" Publisher="Company" />
     <DisplayName>File_Explorer</DisplayName>
     <Description xml:space="preserve">Locate and open files from Solution Explorer in File Explorer</Description>
+    <MoreInfo>https://github.com/prabhu09/File_Explorer</MoreInfo>
     <License>Resources/LICENSE</License>
+    <ReleaseNotes>https://github.com/prabhu09/File_Explorer/blob/master/CHANGELOG.md</ReleaseNotes>
     <Icon>icon.png</Icon>
     <PreviewImage>preview.png</PreviewImage>
+    <Tags>file, locate, open</Tags>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />

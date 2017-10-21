@@ -13,6 +13,6 @@ namespace File_Explorer
         public const string Language = "en-US";
         public const string Version = "1.0";
         public const string Author = "Company";
-        public const string Tags = "";
+        public const string Tags = "file, locate, open";
     }
 }
